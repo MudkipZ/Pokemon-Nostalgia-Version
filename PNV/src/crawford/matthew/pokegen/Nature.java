@@ -9,8 +9,11 @@ public class Nature
 	public Nature()
 	{
 		Random r=new Random();
+		int rp=r.nextInt(5);
+		int rm=r.nextInt();
 		StatMods[r.nextInt(5)]+=.1;
 		StatMods[r.nextInt(5)]-=.1;
+		
 		
 	}
 }
