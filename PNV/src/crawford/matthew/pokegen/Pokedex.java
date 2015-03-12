@@ -6,6 +6,8 @@ public class Pokedex
 	private LinkedList<PokemonSpecies> CapturedSpecies;
 	private LinkedList<PokemonSpecies> UnCapturedSeenSpecies;
 	private LinkedList<PokemonSpecies> UnSeenSpecies;
+	private int Caught;
+	private int Seen;
 	
 	public Pokedex()
 	{
