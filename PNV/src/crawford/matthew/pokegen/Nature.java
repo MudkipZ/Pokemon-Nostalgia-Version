@@ -75,6 +75,7 @@ public class Nature
 	
 	public static void main(String[] Args)
 	{
+		System.out.println("The 25 Natures:\n");
 		AllOfEm();
 	}
 }
