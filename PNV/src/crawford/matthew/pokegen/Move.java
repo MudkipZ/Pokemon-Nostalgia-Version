@@ -11,7 +11,6 @@ public class Move
 	private boolean cantMiss, isHM, isFieldMove, isSpecial, isStatus, isPhysical, isContact, mustRecharge, twoTurns;
 	private LinkedList<AddedEffect> AddedEffects = new LinkedList<AddedEffect>();
 	private Types.Type Type;
-	
 	public Move(int id)
 	{
 		this.id = id;

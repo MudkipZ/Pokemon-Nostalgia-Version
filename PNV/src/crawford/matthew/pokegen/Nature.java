@@ -66,15 +66,23 @@ public class Nature
 			}
 		}
 		return Natures;
+<<<<<<< Upstream, based on origin/kanyedevbranch
 	}
 	
 	public double[] getStatMods()
 	{
 		return this.StatMods;
+=======
+>>>>>>> b254c2d Nature Algorithm Has Been "Optimized", All Experience Groups Exist, And Pokemon Generation Has Been Started
 	}
 	
 	public String toString()
 	{
 		return this.name.toString();
+	}
+	
+	public static void main(String[] Args)
+	{
+		AllOfEm();
 	}
 }
