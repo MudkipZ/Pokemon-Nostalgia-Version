@@ -72,10 +72,4 @@ public class Nature
 	{
 		return this.name.toString();
 	}
-	
-	public static void main(String[] Args)
-	{
-		System.out.println("The 25 Natures:\n");
-		AllOfEm();
-	}
 }
