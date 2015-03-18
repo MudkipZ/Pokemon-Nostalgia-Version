@@ -11,7 +11,7 @@ public class PokemonSpecies
 {
 	private int PokedexNum;
 	private String SpeciesName;
-	private String[] Types=new String[2];
+	private Types.Type[] SpeciesTypes=new Types.Type[2];
 	private int[] BaseStats=new int[6];
 	private LinkedList<Move> Movepool;
 	
@@ -28,8 +28,8 @@ public class PokemonSpecies
 				this.PokedexNum=1;
 				this.SpeciesName="Bulbasaur";
 				
-				this.Types[0]="Grass";
-				this.Types[1]="Poison";
+				this.SpeciesTypes[0]=Types.Grass;
+				this.SpeciesTypes[1]=Types.Poison;
 				
 				this.BaseStats[0]=45;
 				this.BaseStats[1]=49;
@@ -44,8 +44,8 @@ public class PokemonSpecies
 				this.PokedexNum=2;
 				this.SpeciesName="Ivysaur";
 				
-				this.Types[0]="Grass";
-				this.Types[1]="Poison";
+				this.SpeciesTypes[0]=Types.Grass;
+				this.SpeciesTypes[1]=Types.Poison;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=62;
@@ -60,8 +60,8 @@ public class PokemonSpecies
 				this.PokedexNum=3;
 				this.SpeciesName="Venusaur";
 				
-				this.Types[0]="Grass";
-				this.Types[1]="Poison";
+				this.SpeciesTypes[0]=Types.Grass;
+				this.SpeciesTypes[1]=Types.Poison;
 				
 				this.BaseStats[0]=80;
 				this.BaseStats[1]=82;
@@ -76,8 +76,8 @@ public class PokemonSpecies
 				this.PokedexNum=4;
 				this.SpeciesName="Charmander";
 				
-				this.Types[0]="Fire";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Fire;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=39;
 				this.BaseStats[1]=52;
@@ -92,8 +92,8 @@ public class PokemonSpecies
 				this.PokedexNum=5;
 				this.SpeciesName="Charmeleon";
 				
-				this.Types[0]="Fire";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Fire;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=58;
 				this.BaseStats[1]=64;
@@ -108,8 +108,8 @@ public class PokemonSpecies
 				this.PokedexNum=6;
 				this.SpeciesName="Charizard";
 				
-				this.Types[0]="Fire";
-				this.Types[1]="Flying";
+				this.SpeciesTypes[0]=Types.Fire;
+				this.SpeciesTypes[1]=Types.Flying;
 				
 				this.BaseStats[0]=78;
 				this.BaseStats[1]=84;
@@ -124,8 +124,8 @@ public class PokemonSpecies
 				this.PokedexNum=7;
 				this.SpeciesName="Squirtle";
 				
-				this.Types[0]="Water";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Water;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=44;
 				this.BaseStats[1]=48;
@@ -140,8 +140,8 @@ public class PokemonSpecies
 				this.PokedexNum=8;
 				this.SpeciesName="Wartortle";
 				
-				this.Types[0]="Water";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Water;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=59;
 				this.BaseStats[1]=63;
@@ -156,8 +156,8 @@ public class PokemonSpecies
 				this.PokedexNum=9;
 				this.SpeciesName="Blastoise";
 				
-				this.Types[0]="Water";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Water;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=79;
 				this.BaseStats[1]=83;
@@ -172,8 +172,8 @@ public class PokemonSpecies
 				this.PokedexNum=10;
 				this.SpeciesName="Caterpie";
 				
-				this.Types[0]="Bug";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Bug;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=45;
 				this.BaseStats[1]=30;
@@ -188,8 +188,8 @@ public class PokemonSpecies
 				this.PokedexNum=11;
 				this.SpeciesName="Metapod";
 				
-				this.Types[0]="Bug";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Bug;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=50;
 				this.BaseStats[1]=20;
@@ -204,8 +204,8 @@ public class PokemonSpecies
 				this.PokedexNum=12;
 				this.SpeciesName="Butterfree";
 				
-				this.Types[0]="Bug";
-				this.Types[1]="Flying";
+				this.SpeciesTypes[0]=Types.Bug;
+				this.SpeciesTypes[1]=Types.Flying;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=45;
@@ -220,8 +220,8 @@ public class PokemonSpecies
 				this.PokedexNum=13;
 				this.SpeciesName="Weedle";
 				
-				this.Types[0]="Bug";
-				this.Types[1]="Poison";
+				this.SpeciesTypes[0]=Types.Bug;
+				this.SpeciesTypes[1]=Types.Poison;
 				
 				this.BaseStats[0]=40;
 				this.BaseStats[1]=35;
@@ -236,8 +236,8 @@ public class PokemonSpecies
 				this.PokedexNum=14;
 				this.SpeciesName="Kakuna";
 				
-				this.Types[0]="Bug";
-				this.Types[1]="Poison";
+				this.SpeciesTypes[0]=Types.Bug;
+				this.SpeciesTypes[1]=Types.Poison;
 				
 				this.BaseStats[0]=45;
 				this.BaseStats[1]=25;
@@ -252,8 +252,8 @@ public class PokemonSpecies
 				this.PokedexNum=15;
 				this.SpeciesName="Beedrill";
 				
-				this.Types[0]="Bug";
-				this.Types[1]="Poison";
+				this.SpeciesTypes[0]=Types.Bug;
+				this.SpeciesTypes[1]=Types.Poison;
 				
 				this.BaseStats[0]=65;
 				this.BaseStats[1]=90;
@@ -268,8 +268,8 @@ public class PokemonSpecies
 				this.PokedexNum=16;
 				this.SpeciesName="Pidgey";
 				
-				this.Types[0]="Normal";
-				this.Types[1]="Flying";
+				this.SpeciesTypes[0]=Types.Normal;
+				this.SpeciesTypes[1]=Types.Flying;
 				
 				this.BaseStats[0]=40;
 				this.BaseStats[1]=45;
@@ -284,8 +284,8 @@ public class PokemonSpecies
 				this.PokedexNum=17;
 				this.SpeciesName="Pidgeotto";
 				
-				this.Types[0]="Normal";
-				this.Types[1]="Flying";
+				this.SpeciesTypes[0]=Types.Normal;
+				this.SpeciesTypes[1]=Types.Flying;
 				
 				this.BaseStats[0]=63;
 				this.BaseStats[1]=60;
@@ -300,8 +300,8 @@ public class PokemonSpecies
 				this.PokedexNum=18;
 				this.SpeciesName="Pidgeot";
 				
-				this.Types[0]="Normal";
-				this.Types[1]="Flying";
+				this.SpeciesTypes[0]=Types.Normal;
+				this.SpeciesTypes[1]=Types.Flying;
 				
 				this.BaseStats[0]=83;
 				this.BaseStats[1]=80;
@@ -316,8 +316,8 @@ public class PokemonSpecies
 				this.PokedexNum=19;
 				this.SpeciesName="Rattata";
 				
-				this.Types[0]="Normal";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Normal;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=30;
 				this.BaseStats[1]=56;
@@ -332,8 +332,8 @@ public class PokemonSpecies
 				this.PokedexNum=20;
 				this.SpeciesName="Raticate";
 				
-				this.Types[0]="Normal";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Normal;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=55;
 				this.BaseStats[1]=81;
@@ -348,8 +348,8 @@ public class PokemonSpecies
 				this.PokedexNum=21;
 				this.SpeciesName="Spearow";
 				
-				this.Types[0]="Normal";
-				this.Types[1]="Flying";
+				this.SpeciesTypes[0]=Types.Normal;
+				this.SpeciesTypes[1]=Types.Flying;
 				
 				this.BaseStats[0]=40;
 				this.BaseStats[1]=60;
@@ -364,8 +364,8 @@ public class PokemonSpecies
 				this.PokedexNum=22;
 				this.SpeciesName="Fearow";
 				
-				this.Types[0]="Normal";
-				this.Types[1]="Flying";
+				this.SpeciesTypes[0]=Types.Normal;
+				this.SpeciesTypes[1]=Types.Flying;
 				
 				this.BaseStats[0]=65;
 				this.BaseStats[1]=90;
@@ -380,8 +380,8 @@ public class PokemonSpecies
 				this.PokedexNum=23;
 				this.SpeciesName="Ekans";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=35;
 				this.BaseStats[1]=60;
@@ -396,8 +396,8 @@ public class PokemonSpecies
 				this.PokedexNum=24;
 				this.SpeciesName="Arbok";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=85;
@@ -412,8 +412,8 @@ public class PokemonSpecies
 				this.PokedexNum=25;
 				this.SpeciesName="Pikachu";
 				
-				this.Types[0]="Electric";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Electric;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=35;
 				this.BaseStats[1]=55;
@@ -428,8 +428,8 @@ public class PokemonSpecies
 				this.PokedexNum=26;
 				this.SpeciesName="Raichu";
 				
-				this.Types[0]="Electric";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Electric;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=90;
@@ -444,8 +444,8 @@ public class PokemonSpecies
 				this.PokedexNum=27;
 				this.SpeciesName="Sandshrew";
 				
-				this.Types[0]="Ground";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Ground;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=50;
 				this.BaseStats[1]=75;
@@ -460,8 +460,8 @@ public class PokemonSpecies
 				this.PokedexNum=28;
 				this.SpeciesName="Sandslash";
 				
-				this.Types[0]="Ground";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Ground;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=75;
 				this.BaseStats[1]=100;
@@ -476,8 +476,8 @@ public class PokemonSpecies
 				this.PokedexNum=29;
 				this.SpeciesName="NidoranF";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=55;
 				this.BaseStats[1]=47;
@@ -492,8 +492,8 @@ public class PokemonSpecies
 				this.PokedexNum=30;
 				this.SpeciesName="Nidorina";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=70;
 				this.BaseStats[1]=62;
@@ -508,8 +508,8 @@ public class PokemonSpecies
 				this.PokedexNum=31;
 				this.SpeciesName="Nidoqueen";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Ground";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=Types.Ground;
 				
 				this.BaseStats[0]=90;
 				this.BaseStats[1]=92;
@@ -524,8 +524,8 @@ public class PokemonSpecies
 				this.PokedexNum=32;
 				this.SpeciesName="NidoranM";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=46;
 				this.BaseStats[1]=57;
@@ -540,8 +540,8 @@ public class PokemonSpecies
 				this.PokedexNum=33;
 				this.SpeciesName="Nidorino";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=61;
 				this.BaseStats[1]=72;
@@ -556,8 +556,8 @@ public class PokemonSpecies
 				this.PokedexNum=34;
 				this.SpeciesName="Nidoking";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Ground";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=Types.Ground;
 				
 				this.BaseStats[0]=81;
 				this.BaseStats[1]=102;
@@ -572,8 +572,8 @@ public class PokemonSpecies
 				this.PokedexNum=35;
 				this.SpeciesName="Clefairy";
 				
-				this.Types[0]="Normal";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Normal;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=70;
 				this.BaseStats[1]=45;
@@ -588,8 +588,8 @@ public class PokemonSpecies
 				this.PokedexNum=36;
 				this.SpeciesName="Clefable";
 				
-				this.Types[0]="Normal";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Normal;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=95;
 				this.BaseStats[1]=70;
@@ -604,8 +604,8 @@ public class PokemonSpecies
 				this.PokedexNum=37;
 				this.SpeciesName="Vulpix";
 				
-				this.Types[0]="Fire";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Fire;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=38;
 				this.BaseStats[1]=41;
@@ -620,8 +620,8 @@ public class PokemonSpecies
 				this.PokedexNum=38;
 				this.SpeciesName="Ninetales";
 				
-				this.Types[0]="Fire";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Fire;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=73;
 				this.BaseStats[1]=76;
@@ -636,8 +636,8 @@ public class PokemonSpecies
 				this.PokedexNum=39;
 				this.SpeciesName="Jigglypuff";
 				
-				this.Types[0]="Normal";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Normal;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=115;
 				this.BaseStats[1]=45;
@@ -652,8 +652,8 @@ public class PokemonSpecies
 				this.PokedexNum=40;
 				this.SpeciesName="Wigglytuff";
 				
-				this.Types[0]="Normal";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Normal;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=140;
 				this.BaseStats[1]=70;
@@ -668,8 +668,8 @@ public class PokemonSpecies
 				this.PokedexNum=41;
 				this.SpeciesName="Zubat";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Flying";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=Types.Flying;
 				
 				this.BaseStats[0]=40;
 				this.BaseStats[1]=45;
@@ -684,8 +684,8 @@ public class PokemonSpecies
 				this.PokedexNum=42;
 				this.SpeciesName="Golbat";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Flying";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=Types.Flying;
 				
 				this.BaseStats[0]=75;
 				this.BaseStats[1]=80;
@@ -700,8 +700,8 @@ public class PokemonSpecies
 				this.PokedexNum=43;
 				this.SpeciesName="Oddish";
 				
-				this.Types[0]="Grass";
-				this.Types[1]="Poison";
+				this.SpeciesTypes[0]=Types.Grass;
+				this.SpeciesTypes[1]=Types.Poison;
 				
 				this.BaseStats[0]=45;
 				this.BaseStats[1]=50;
@@ -716,8 +716,8 @@ public class PokemonSpecies
 				this.PokedexNum=44;
 				this.SpeciesName="Gloom";
 				
-				this.Types[0]="Grass";
-				this.Types[1]="Poison";
+				this.SpeciesTypes[0]=Types.Grass;
+				this.SpeciesTypes[1]=Types.Poison;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=65;
@@ -732,8 +732,8 @@ public class PokemonSpecies
 				this.PokedexNum=45;
 				this.SpeciesName="Vileplume";
 				
-				this.Types[0]="Grass";
-				this.Types[1]="Poison";
+				this.SpeciesTypes[0]=Types.Grass;
+				this.SpeciesTypes[1]=Types.Poison;
 				
 				this.BaseStats[0]=75;
 				this.BaseStats[1]=80;
@@ -748,8 +748,8 @@ public class PokemonSpecies
 				this.PokedexNum=46;
 				this.SpeciesName="Paras";
 				
-				this.Types[0]="Bug";
-				this.Types[1]="Grass";
+				this.SpeciesTypes[0]=Types.Bug;
+				this.SpeciesTypes[1]=Types.Grass;
 				
 				this.BaseStats[0]=35;
 				this.BaseStats[1]=70;
@@ -764,8 +764,8 @@ public class PokemonSpecies
 				this.PokedexNum=47;
 				this.SpeciesName="Parasect";
 				
-				this.Types[0]="Bug";
-				this.Types[1]="Grass";
+				this.SpeciesTypes[0]=Types.Bug;
+				this.SpeciesTypes[1]=Types.Grass;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=95;
@@ -780,8 +780,8 @@ public class PokemonSpecies
 				this.PokedexNum=48;
 				this.SpeciesName="Venonat";
 				
-				this.Types[0]="Bug";
-				this.Types[1]="Poison";
+				this.SpeciesTypes[0]=Types.Bug;
+				this.SpeciesTypes[1]=Types.Poison;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=55;
@@ -796,8 +796,8 @@ public class PokemonSpecies
 				this.PokedexNum=49;
 				this.SpeciesName="Venomoth";
 				
-				this.Types[0]="Bug";
-				this.Types[1]="Poison";
+				this.SpeciesTypes[0]=Types.Bug;
+				this.SpeciesTypes[1]=Types.Poison;
 				
 				this.BaseStats[0]=70;
 				this.BaseStats[1]=65;
@@ -812,8 +812,8 @@ public class PokemonSpecies
 				this.PokedexNum=50;
 				this.SpeciesName="Diglett";
 				
-				this.Types[0]="Ground";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Ground;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=10;
 				this.BaseStats[1]=55;
@@ -837,8 +837,8 @@ public class PokemonSpecies
 				this.PokedexNum=1;
 				this.SpeciesName="Bulbasaur";
 				
-				this.Types[0]="Grass";
-				this.Types[1]="Poison";
+				this.SpeciesTypes[0]=Types.Grass;
+				this.SpeciesTypes[1]=Types.Poison;
 				
 				this.BaseStats[0]=45;
 				this.BaseStats[1]=49;
@@ -853,8 +853,8 @@ public class PokemonSpecies
 				this.PokedexNum=2;
 				this.SpeciesName="Ivysaur";
 				
-				this.Types[0]="Grass";
-				this.Types[1]="Poison";
+				this.SpeciesTypes[0]=Types.Grass;
+				this.SpeciesTypes[1]=Types.Poison;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=62;
@@ -869,8 +869,8 @@ public class PokemonSpecies
 				this.PokedexNum=3;
 				this.SpeciesName="Venusaur";
 				
-				this.Types[0]="Grass";
-				this.Types[1]="Poison";
+				this.SpeciesTypes[0]=Types.Grass;
+				this.SpeciesTypes[1]=Types.Poison;
 				
 				this.BaseStats[0]=80;
 				this.BaseStats[1]=82;
@@ -885,8 +885,8 @@ public class PokemonSpecies
 				this.PokedexNum=4;
 				this.SpeciesName="Charmander";
 				
-				this.Types[0]="Fire";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Fire;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=39;
 				this.BaseStats[1]=52;
@@ -901,8 +901,8 @@ public class PokemonSpecies
 				this.PokedexNum=5;
 				this.SpeciesName="Charmeleon";
 				
-				this.Types[0]="Fire";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Fire;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=58;
 				this.BaseStats[1]=64;
@@ -917,8 +917,8 @@ public class PokemonSpecies
 				this.PokedexNum=6;
 				this.SpeciesName="Charizard";
 				
-				this.Types[0]="Fire";
-				this.Types[1]="Flying";
+				this.SpeciesTypes[0]=Types.Fire;
+				this.SpeciesTypes[1]=Types.Flying;
 				
 				this.BaseStats[0]=78;
 				this.BaseStats[1]=84;
@@ -933,8 +933,8 @@ public class PokemonSpecies
 				this.PokedexNum=7;
 				this.SpeciesName="Squirtle";
 				
-				this.Types[0]="Water";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Water;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=44;
 				this.BaseStats[1]=48;
@@ -949,8 +949,8 @@ public class PokemonSpecies
 				this.PokedexNum=8;
 				this.SpeciesName="Wartortle";
 				
-				this.Types[0]="Water";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Water;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=59;
 				this.BaseStats[1]=63;
@@ -965,8 +965,8 @@ public class PokemonSpecies
 				this.PokedexNum=9;
 				this.SpeciesName="Blastoise";
 				
-				this.Types[0]="Water";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Water;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=79;
 				this.BaseStats[1]=83;
@@ -981,8 +981,8 @@ public class PokemonSpecies
 				this.PokedexNum=10;
 				this.SpeciesName="Caterpie";
 				
-				this.Types[0]="Bug";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Bug;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=45;
 				this.BaseStats[1]=30;
@@ -997,8 +997,8 @@ public class PokemonSpecies
 				this.PokedexNum=11;
 				this.SpeciesName="Metapod";
 				
-				this.Types[0]="Bug";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Bug;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=50;
 				this.BaseStats[1]=20;
@@ -1013,8 +1013,8 @@ public class PokemonSpecies
 				this.PokedexNum=12;
 				this.SpeciesName="Butterfree";
 				
-				this.Types[0]="Bug";
-				this.Types[1]="Flying";
+				this.SpeciesTypes[0]=Types.Bug;
+				this.SpeciesTypes[1]=Types.Flying;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=45;
@@ -1029,8 +1029,8 @@ public class PokemonSpecies
 				this.PokedexNum=13;
 				this.SpeciesName="Weedle";
 				
-				this.Types[0]="Bug";
-				this.Types[1]="Poison";
+				this.SpeciesTypes[0]=Types.Bug;
+				this.SpeciesTypes[1]=Types.Poison;
 				
 				this.BaseStats[0]=40;
 				this.BaseStats[1]=35;
@@ -1045,8 +1045,8 @@ public class PokemonSpecies
 				this.PokedexNum=14;
 				this.SpeciesName="Kakuna";
 				
-				this.Types[0]="Bug";
-				this.Types[1]="Poison";
+				this.SpeciesTypes[0]=Types.Bug;
+				this.SpeciesTypes[1]=Types.Poison;
 				
 				this.BaseStats[0]=45;
 				this.BaseStats[1]=25;
@@ -1061,8 +1061,8 @@ public class PokemonSpecies
 				this.PokedexNum=15;
 				this.SpeciesName="Beedrill";
 				
-				this.Types[0]="Bug";
-				this.Types[1]="Poison";
+				this.SpeciesTypes[0]=Types.Bug;
+				this.SpeciesTypes[1]=Types.Poison;
 				
 				this.BaseStats[0]=65;
 				this.BaseStats[1]=90;
@@ -1077,8 +1077,8 @@ public class PokemonSpecies
 				this.PokedexNum=16;
 				this.SpeciesName="Pidgey";
 				
-				this.Types[0]="Normal";
-				this.Types[1]="Flying";
+				this.SpeciesTypes[0]=Types.Normal;
+				this.SpeciesTypes[1]=Types.Flying;
 				
 				this.BaseStats[0]=40;
 				this.BaseStats[1]=45;
@@ -1093,8 +1093,8 @@ public class PokemonSpecies
 				this.PokedexNum=17;
 				this.SpeciesName="Pidgeotto";
 				
-				this.Types[0]="Normal";
-				this.Types[1]="Flying";
+				this.SpeciesTypes[0]=Types.Normal;
+				this.SpeciesTypes[1]=Types.Flying;
 				
 				this.BaseStats[0]=63;
 				this.BaseStats[1]=60;
@@ -1109,8 +1109,8 @@ public class PokemonSpecies
 				this.PokedexNum=18;
 				this.SpeciesName="Pidgeot";
 				
-				this.Types[0]="Normal";
-				this.Types[1]="Flying";
+				this.SpeciesTypes[0]=Types.Normal;
+				this.SpeciesTypes[1]=Types.Flying;
 				
 				this.BaseStats[0]=83;
 				this.BaseStats[1]=80;
@@ -1125,8 +1125,8 @@ public class PokemonSpecies
 				this.PokedexNum=19;
 				this.SpeciesName="Rattata";
 				
-				this.Types[0]="Normal";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Normal;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=30;
 				this.BaseStats[1]=56;
@@ -1141,8 +1141,8 @@ public class PokemonSpecies
 				this.PokedexNum=20;
 				this.SpeciesName="Raticate";
 				
-				this.Types[0]="Normal";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Normal;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=55;
 				this.BaseStats[1]=81;
@@ -1157,8 +1157,8 @@ public class PokemonSpecies
 				this.PokedexNum=21;
 				this.SpeciesName="Spearow";
 				
-				this.Types[0]="Normal";
-				this.Types[1]="Flying";
+				this.SpeciesTypes[0]=Types.Normal;
+				this.SpeciesTypes[1]=Types.Flying;
 				
 				this.BaseStats[0]=40;
 				this.BaseStats[1]=60;
@@ -1173,8 +1173,8 @@ public class PokemonSpecies
 				this.PokedexNum=22;
 				this.SpeciesName="Fearow";
 				
-				this.Types[0]="Normal";
-				this.Types[1]="Flying";
+				this.SpeciesTypes[0]=Types.Normal;
+				this.SpeciesTypes[1]=Types.Flying;
 				
 				this.BaseStats[0]=65;
 				this.BaseStats[1]=90;
@@ -1189,8 +1189,8 @@ public class PokemonSpecies
 				this.PokedexNum=23;
 				this.SpeciesName="Ekans";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=35;
 				this.BaseStats[1]=60;
@@ -1205,8 +1205,8 @@ public class PokemonSpecies
 				this.PokedexNum=24;
 				this.SpeciesName="Arbok";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=85;
@@ -1221,8 +1221,8 @@ public class PokemonSpecies
 				this.PokedexNum=25;
 				this.SpeciesName="Pikachu";
 				
-				this.Types[0]="Electric";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Electric;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=35;
 				this.BaseStats[1]=55;
@@ -1237,8 +1237,8 @@ public class PokemonSpecies
 				this.PokedexNum=26;
 				this.SpeciesName="Raichu";
 				
-				this.Types[0]="Electric";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Electric;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=90;
@@ -1253,8 +1253,8 @@ public class PokemonSpecies
 				this.PokedexNum=27;
 				this.SpeciesName="Sandshrew";
 				
-				this.Types[0]="Ground";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Ground;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=50;
 				this.BaseStats[1]=75;
@@ -1269,8 +1269,8 @@ public class PokemonSpecies
 				this.PokedexNum=28;
 				this.SpeciesName="Sandslash";
 				
-				this.Types[0]="Ground";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Ground;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=75;
 				this.BaseStats[1]=100;
@@ -1285,8 +1285,8 @@ public class PokemonSpecies
 				this.PokedexNum=29;
 				this.SpeciesName="NidoranF";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=55;
 				this.BaseStats[1]=47;
@@ -1301,8 +1301,8 @@ public class PokemonSpecies
 				this.PokedexNum=30;
 				this.SpeciesName="Nidorina";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=70;
 				this.BaseStats[1]=62;
@@ -1317,8 +1317,8 @@ public class PokemonSpecies
 				this.PokedexNum=31;
 				this.SpeciesName="Nidoqueen";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Ground";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=Types.Ground;
 				
 				this.BaseStats[0]=90;
 				this.BaseStats[1]=92;
@@ -1333,8 +1333,8 @@ public class PokemonSpecies
 				this.PokedexNum=32;
 				this.SpeciesName="NidoranM";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=46;
 				this.BaseStats[1]=57;
@@ -1349,8 +1349,8 @@ public class PokemonSpecies
 				this.PokedexNum=33;
 				this.SpeciesName="Nidorino";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=61;
 				this.BaseStats[1]=72;
@@ -1365,8 +1365,8 @@ public class PokemonSpecies
 				this.PokedexNum=34;
 				this.SpeciesName="Nidoking";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Ground";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=Types.Ground;
 				
 				this.BaseStats[0]=81;
 				this.BaseStats[1]=102;
@@ -1381,8 +1381,8 @@ public class PokemonSpecies
 				this.PokedexNum=35;
 				this.SpeciesName="Clefairy";
 				
-				this.Types[0]="Normal";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Normal;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=70;
 				this.BaseStats[1]=45;
@@ -1397,8 +1397,8 @@ public class PokemonSpecies
 				this.PokedexNum=36;
 				this.SpeciesName="Clefable";
 				
-				this.Types[0]="Normal";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Normal;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=95;
 				this.BaseStats[1]=70;
@@ -1413,8 +1413,8 @@ public class PokemonSpecies
 				this.PokedexNum=37;
 				this.SpeciesName="Vulpix";
 				
-				this.Types[0]="Fire";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Fire;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=38;
 				this.BaseStats[1]=41;
@@ -1429,8 +1429,8 @@ public class PokemonSpecies
 				this.PokedexNum=38;
 				this.SpeciesName="Ninetales";
 				
-				this.Types[0]="Fire";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Fire;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=73;
 				this.BaseStats[1]=76;
@@ -1445,8 +1445,8 @@ public class PokemonSpecies
 				this.PokedexNum=39;
 				this.SpeciesName="Jigglypuff";
 				
-				this.Types[0]="Normal";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Normal;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=115;
 				this.BaseStats[1]=45;
@@ -1461,8 +1461,8 @@ public class PokemonSpecies
 				this.PokedexNum=40;
 				this.SpeciesName="Wigglytuff";
 				
-				this.Types[0]="Normal";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Normal;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=140;
 				this.BaseStats[1]=70;
@@ -1477,8 +1477,8 @@ public class PokemonSpecies
 				this.PokedexNum=41;
 				this.SpeciesName="Zubat";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Flying";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=Types.Flying;
 				
 				this.BaseStats[0]=40;
 				this.BaseStats[1]=45;
@@ -1493,8 +1493,8 @@ public class PokemonSpecies
 				this.PokedexNum=42;
 				this.SpeciesName="Golbat";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Flying";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=Types.Flying;
 				
 				this.BaseStats[0]=75;
 				this.BaseStats[1]=80;
@@ -1509,8 +1509,8 @@ public class PokemonSpecies
 				this.PokedexNum=43;
 				this.SpeciesName="Oddish";
 				
-				this.Types[0]="Grass";
-				this.Types[1]="Poison";
+				this.SpeciesTypes[0]=Types.Grass;
+				this.SpeciesTypes[1]=Types.Poison;
 				
 				this.BaseStats[0]=45;
 				this.BaseStats[1]=50;
@@ -1525,8 +1525,8 @@ public class PokemonSpecies
 				this.PokedexNum=44;
 				this.SpeciesName="Gloom";
 				
-				this.Types[0]="Grass";
-				this.Types[1]="Poison";
+				this.SpeciesTypes[0]=Types.Grass;
+				this.SpeciesTypes[1]=Types.Poison;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=65;
@@ -1541,8 +1541,8 @@ public class PokemonSpecies
 				this.PokedexNum=45;
 				this.SpeciesName="Vileplume";
 				
-				this.Types[0]="Grass";
-				this.Types[1]="Poison";
+				this.SpeciesTypes[0]=Types.Grass;
+				this.SpeciesTypes[1]=Types.Poison;
 				
 				this.BaseStats[0]=75;
 				this.BaseStats[1]=80;
@@ -1557,8 +1557,8 @@ public class PokemonSpecies
 				this.PokedexNum=46;
 				this.SpeciesName="Paras";
 				
-				this.Types[0]="Bug";
-				this.Types[1]="Grass";
+				this.SpeciesTypes[0]=Types.Bug;
+				this.SpeciesTypes[1]=Types.Grass;
 				
 				this.BaseStats[0]=35;
 				this.BaseStats[1]=70;
@@ -1573,8 +1573,8 @@ public class PokemonSpecies
 				this.PokedexNum=47;
 				this.SpeciesName="Parasect";
 				
-				this.Types[0]="Bug";
-				this.Types[1]="Grass";
+				this.SpeciesTypes[0]=Types.Bug;
+				this.SpeciesTypes[1]=Types.Grass;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=95;
@@ -1589,8 +1589,8 @@ public class PokemonSpecies
 				this.PokedexNum=48;
 				this.SpeciesName="Venonat";
 				
-				this.Types[0]="Bug";
-				this.Types[1]="Poison";
+				this.SpeciesTypes[0]=Types.Bug;
+				this.SpeciesTypes[1]=Types.Poison;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=55;
@@ -1605,8 +1605,8 @@ public class PokemonSpecies
 				this.PokedexNum=49;
 				this.SpeciesName="Venomoth";
 				
-				this.Types[0]="Bug";
-				this.Types[1]="Poison";
+				this.SpeciesTypes[0]=Types.Bug;
+				this.SpeciesTypes[1]=Types.Poison;
 				
 				this.BaseStats[0]=70;
 				this.BaseStats[1]=65;
@@ -1621,8 +1621,8 @@ public class PokemonSpecies
 				this.PokedexNum=50;
 				this.SpeciesName="Diglett";
 				
-				this.Types[0]="Ground";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Ground;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=10;
 				this.BaseStats[1]=55;
@@ -1637,8 +1637,8 @@ public class PokemonSpecies
 				this.PokedexNum=24;
 				this.SpeciesName="Arbok";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=85;
@@ -1653,8 +1653,8 @@ public class PokemonSpecies
 				this.PokedexNum=24;
 				this.SpeciesName="Arbok";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=85;
@@ -1669,8 +1669,8 @@ public class PokemonSpecies
 				this.PokedexNum=24;
 				this.SpeciesName="Arbok";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=85;
@@ -1685,8 +1685,8 @@ public class PokemonSpecies
 				this.PokedexNum=24;
 				this.SpeciesName="Arbok";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=85;
@@ -1701,8 +1701,8 @@ public class PokemonSpecies
 				this.PokedexNum=24;
 				this.SpeciesName="Arbok";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=85;
@@ -1717,8 +1717,8 @@ public class PokemonSpecies
 				this.PokedexNum=24;
 				this.SpeciesName="Arbok";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=85;
@@ -1733,8 +1733,8 @@ public class PokemonSpecies
 				this.PokedexNum=24;
 				this.SpeciesName="Arbok";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=85;
@@ -1749,8 +1749,8 @@ public class PokemonSpecies
 				this.PokedexNum=24;
 				this.SpeciesName="Arbok";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=85;
@@ -1765,8 +1765,8 @@ public class PokemonSpecies
 				this.PokedexNum=24;
 				this.SpeciesName="Arbok";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=85;
@@ -1781,8 +1781,8 @@ public class PokemonSpecies
 				this.PokedexNum=24;
 				this.SpeciesName="Arbok";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=85;
@@ -1797,8 +1797,8 @@ public class PokemonSpecies
 				this.PokedexNum=24;
 				this.SpeciesName="Arbok";
 				
-				this.Types[0]="Poison";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Poison;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=60;
 				this.BaseStats[1]=85;
@@ -1816,13 +1816,13 @@ public class PokemonSpecies
 	{
 		StringBuilder sb=new StringBuilder();
 		sb.append("Dex Num: "+s.PokedexNum+"\t"+s.SpeciesName+"\n");
-		if(s.Types[1]!="Null")
+		if(s.SpeciesTypes[1]!=null)
 		{
-			sb.append("Types: "+s.Types[0]+"\t"+s.Types[1]+"\n");
+			sb.append("Types: "+s.SpeciesTypes[0]+"\t"+s.SpeciesTypes[1]+"\n");
 		}
-		if(s.Types[1]=="Null")
+		if(s.SpeciesTypes[1]==null)
 		{
-			sb.append("Types: "+s.Types[0]+"\n");
+			sb.append("Types: "+s.SpeciesTypes[0]+"\n");
 		}
 		sb.append("Base HP             : "+s.BaseStats[0]+"\n");
 		sb.append("Base ATTACK         : "+s.BaseStats[1]+"\n");
