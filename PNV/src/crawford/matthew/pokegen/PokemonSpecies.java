@@ -1832,6 +1832,17 @@ public class PokemonSpecies
 		sb.append("Base SPEED          : "+s.BaseStats[5]+"\n");
 		return sb.toString();
 	}
+	
+	public int[] getBaseStats()
+	{
+		return this.BaseStats;
+	}
+	
+	public String getSpeciesName()
+	{
+		return this.SpeciesName;
+	}
+	
 	public static void main(String[] Args) throws Exception
 	{
 		// PokemonSpecies s=new PokemonSpecies(15);

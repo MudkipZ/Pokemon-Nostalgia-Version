@@ -4,7 +4,7 @@ import java.util.Random;
 public class Nature
 {
 	private String name;
-	private int[] StatMods=new int[5];
+	private double[] StatMods=new double[]{1,1,1,1,1};
 	
 	public Nature(boolean UnR,int i,int j)
 	{
@@ -66,6 +66,11 @@ public class Nature
 			}
 		}
 		return Natures;
+	}
+	
+	public double[] getStatMods()
+	{
+		return this.StatMods;
 	}
 	
 	public String toString()
