@@ -827,8 +827,8 @@ public class PokemonSpecies
 				this.PokedexNum=51;
 				this.SpeciesName="Dugtrio";
 				
-				this.Types[0]="Ground";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Ground;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=35;//hp
 				this.BaseStats[1]=80;//attk
@@ -838,6 +838,34 @@ public class PokemonSpecies
 				this.BaseStats[5]=120;//spd
 				
 				break;
+			case 52:
+				this.PokedexNum = 52;
+				this.SpeciesName = "Meowth";
+				
+				this.SpeciesTypes[0] = Types.Normal;
+				this.SpeciesTypes[1] = null;
+				
+				this.BaseStats[0]=40;//hp
+				this.BaseStats[1]=45;//attk
+				this.BaseStats[2]=35;//def
+				this.BaseStats[3]=40;//sp atk
+				this.BaseStats[4]=40;//sp def
+				this.BaseStats[5]=90;//spd
+				
+				break;
+			case 53:
+				this.PokedexNum = 53;
+				this.SpeciesName = "Persian";
+				
+				this.SpeciesTypes[0] = Types.Normal;
+				this.SpeciesTypes[1] = null;
+				
+				this.BaseStats[0]=65;//hp
+				this.BaseStats[1]=70;//attk
+				this.BaseStats[2]=60;//def
+				this.BaseStats[3]=65;//sp atk
+				this.BaseStats[4]=65;//sp def
+				this.BaseStats[5]=115;//spd
 		}
 	}
 	/**
@@ -1651,8 +1679,8 @@ public class PokemonSpecies
 				this.PokedexNum=51;
 				this.SpeciesName="Dugtrio";
 				
-				this.Types[0]="Ground";
-				this.Types[1]="Null";
+				this.SpeciesTypes[0]=Types.Ground;
+				this.SpeciesTypes[1]=null;
 				
 				this.BaseStats[0]=35;//hp
 				this.BaseStats[1]=80;//attk
