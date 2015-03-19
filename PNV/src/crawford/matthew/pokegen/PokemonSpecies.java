@@ -1663,6 +1663,34 @@ public class PokemonSpecies
 				this.BaseStats[5]=120;//spd
 				
 				break;
+			case "Meowth":
+				this.PokedexNum = 52;
+				this.SpeciesName = "Meowth";
+				
+				this.SpeciesTypes[0] = Types.Normal;
+				this.SpeciesTypes[1] = null;
+				
+				this.BaseStats[0]=40;//hp
+				this.BaseStats[1]=45;//attk
+				this.BaseStats[2]=35;//def
+				this.BaseStats[3]=40;//sp atk
+				this.BaseStats[4]=40;//sp def
+				this.BaseStats[5]=90;//spd
+				
+				break;
+			case "Persian":
+				this.PokedexNum = 53;
+				this.SpeciesName = "Persian";
+				
+				this.SpeciesTypes[0] = Types.Normal;
+				this.SpeciesTypes[1] = null;
+				
+				this.BaseStats[0]=65;//hp
+				this.BaseStats[1]=70;//attk
+				this.BaseStats[2]=60;//def
+				this.BaseStats[3]=65;//sp atk
+				this.BaseStats[4]=65;//sp def
+				this.BaseStats[5]=115;//spd
 				/*
 			case "Arbok":
 				this.PokedexNum=24;
