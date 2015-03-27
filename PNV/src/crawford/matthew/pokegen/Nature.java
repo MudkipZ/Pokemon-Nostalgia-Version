@@ -54,6 +54,11 @@ public class Nature
 		else if(i==4 && j==4) this.name="Hardy";
 	}
 	
+	public String toString()
+	{
+		return this.name.toString();
+	}
+	
 	public static Nature[] AllOfEm()
 	{
 		Nature[] Natures=new Nature[25];
@@ -68,14 +73,8 @@ public class Nature
 		return Natures;
 	}
 	
-	public String toString()
+	public double[] getStatMods()
 	{
-		return this.name.toString();
-	}
-	
-	public static void main(String[] Args)
-	{
-		System.out.println("The 25 Natures:\n");
-		AllOfEm();
+		return this.StatMods;
 	}
 }
