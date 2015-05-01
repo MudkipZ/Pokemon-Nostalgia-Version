@@ -9,6 +9,7 @@ import java.util.LinkedList;
 
 public class PokemonSpecies
 {
+	// Chingling, Bonsly, Mime Jr., Happiny, Munchlax, Mantyke, Weavile, Magnezone, Lickilicky, Rhyperior, Tangrowth, 
 	private int PokedexNum;
 	private String SpeciesName;
 	private Types.Type[] SpeciesTypes=new Types.Type[2];
