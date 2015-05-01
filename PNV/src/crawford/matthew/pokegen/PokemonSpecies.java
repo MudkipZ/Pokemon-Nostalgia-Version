@@ -9,7 +9,6 @@ import java.util.LinkedList;
 
 public class PokemonSpecies
 {
-	// Chingling, Bonsly, Mime Jr., Happiny, Munchlax, Mantyke, Weavile, Magnezone, Lickilicky, Rhyperior, Tangrowth, 
 	private int PokedexNum;
 	private String SpeciesName;
 	private Types.Type[] SpeciesTypes=new Types.Type[2];
@@ -824,6 +823,34 @@ public class PokemonSpecies
 				this.BaseStats[5]=95;
 				
 				break;
+			case 52:
+				this.PokedexNum = 52;
+				this.SpeciesName = "Meowth";
+				
+				this.SpeciesTypes[0] = Types.Normal;
+				this.SpeciesTypes[1] = null;
+				
+				this.BaseStats[0]=40;//hp
+				this.BaseStats[1]=45;//attk
+				this.BaseStats[2]=35;//def
+				this.BaseStats[3]=40;//sp atk
+				this.BaseStats[4]=40;//sp def
+				this.BaseStats[5]=90;//spd
+				
+				break;
+			case 53:
+				this.PokedexNum = 53;
+				this.SpeciesName = "Persian";
+				
+				this.SpeciesTypes[0] = Types.Normal;
+				this.SpeciesTypes[1] = null;
+				
+				this.BaseStats[0]=65;//hp
+				this.BaseStats[1]=70;//attk
+				this.BaseStats[2]=60;//def
+				this.BaseStats[3]=65;//sp atk
+				this.BaseStats[4]=65;//sp def
+				this.BaseStats[5]=115;//spd
 		}
 	}
 	/**
@@ -1649,6 +1676,34 @@ public class PokemonSpecies
 				this.BaseStats[5]=80;
 				
 				break;
+			case "Meowth":
+				this.PokedexNum = 52;
+				this.SpeciesName = "Meowth";
+				
+				this.SpeciesTypes[0] = Types.Normal;
+				this.SpeciesTypes[1] = null;
+				
+				this.BaseStats[0]=40;//hp
+				this.BaseStats[1]=45;//attk
+				this.BaseStats[2]=35;//def
+				this.BaseStats[3]=40;//sp atk
+				this.BaseStats[4]=40;//sp def
+				this.BaseStats[5]=90;//spd
+				
+				break;
+			case "Persian":
+				this.PokedexNum = 53;
+				this.SpeciesName = "Persian";
+				
+				this.SpeciesTypes[0] = Types.Normal;
+				this.SpeciesTypes[1] = null;
+				
+				this.BaseStats[0]=65;//hp
+				this.BaseStats[1]=70;//attk
+				this.BaseStats[2]=60;//def
+				this.BaseStats[3]=65;//sp atk
+				this.BaseStats[4]=65;//sp def
+				this.BaseStats[5]=115;//spd
 				
 			case "Arbok":
 				this.PokedexNum=24;
