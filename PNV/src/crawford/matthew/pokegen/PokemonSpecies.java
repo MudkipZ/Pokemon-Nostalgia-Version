@@ -824,6 +824,21 @@ public class PokemonSpecies
 				this.BaseStats[5]=95;
 				
 				break;
+			case 51:
+				this.PokedexNum=51;
+				this.SpeciesName="Dugtrio";
+				
+				this.SpeciesTypes[0]=Types.Ground;
+				this.SpeciesTypes[1]=null;
+				
+				this.BaseStats[0]=35;//hp
+				this.BaseStats[1]=80;//attk
+				this.BaseStats[2]=50;//def
+				this.BaseStats[3]=50;//sp atk
+				this.BaseStats[4]=70;//sp def
+				this.BaseStats[5]=120;//spd
+				
+				break;
 		}
 	}
 	/**
@@ -1633,23 +1648,22 @@ public class PokemonSpecies
 				this.BaseStats[5]=95;
 				
 				break;
-			/*	
-			case "Arbok":
-				this.PokedexNum=24;
-				this.SpeciesName="Arbok";
+			case "Dugtrio":
+				this.PokedexNum=51;
+				this.SpeciesName="Dugtrio";
 				
 				this.SpeciesTypes[0]=Types.Poison;
 				this.SpeciesTypes[1]=null;
 				
-				this.BaseStats[0]=60;
-				this.BaseStats[1]=85;
-				this.BaseStats[2]=69;
-				this.BaseStats[3]=65;
-				this.BaseStats[4]=79;
-				this.BaseStats[5]=80;
+				this.BaseStats[0]=35;//hp
+				this.BaseStats[1]=80;//attk
+				this.BaseStats[2]=50;//def
+				this.BaseStats[3]=50;//sp atk
+				this.BaseStats[4]=70;//sp def
+				this.BaseStats[5]=120;//spd
 				
 				break;
-				
+				/*
 			case "Arbok":
 				this.PokedexNum=24;
 				this.SpeciesName="Arbok";
