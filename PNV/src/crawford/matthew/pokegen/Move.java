@@ -8,7 +8,7 @@ public class Move
 	private String Name;
 	private int Power=0, Accuracy, BaseMaxPP, Priority, MinHits=1, MaxHits=1;
 	private double CritChance=6.25;
-	private boolean cantMiss, isHM, isFieldMove, isSpecial, isStatus, isPhysical, isContact, mustRecharge, twoTurns;
+	private boolean cantMiss=false, isHM=false, isFieldMove=false, isSpecial=false, isStatus=false, isPhysical=false, isContact=false, mustRecharge=false, twoTurns=false;
 	private LinkedList<AddedEffect> AddedEffects=new LinkedList<AddedEffect>();
 	private Types.Type Type;
 	

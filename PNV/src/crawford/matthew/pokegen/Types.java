@@ -185,5 +185,10 @@ public class Types {
 		{
 			return new Type(type);
 		}
+		@Override
+		public String toString()
+		{
+			return name;
+		}
 	}
 }
